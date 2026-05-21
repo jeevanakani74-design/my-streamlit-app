@@ -1,8 +1,6 @@
 # Streamlit Titanic Linear Regression App
 
 ## 1. Create `app.py`
-
-```python
 import streamlit as st
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -51,21 +49,19 @@ if uploaded_file is not None:
 
     else:
         st.error("CSV file must contain 'age' and 'parch' columns")
-```
 
----
+
+
 
 ## 2. Create `requirements.txt`
 
-```txt
+
 streamlit
 pandas
 scikit-learn
 ```
 
 ---
-
-## 3. Upload Files to GitHub
 
 Create a GitHub repository and upload:
 
@@ -97,8 +93,6 @@ Your app will be hosted online.
 ## 5. Run Locally (Optional)
 
 Open terminal and run:
-
-```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
